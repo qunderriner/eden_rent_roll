@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import xlrd
 import re
+from fuzzywuzzy import fuzz
 
 def get_sheet_names(excel_file_location):
     """
